@@ -34,11 +34,11 @@ This project implements a simple Variational Autoencoder (VAE) in PyTorch, as de
 The following GIFs demonstrate the VAE's ability to interpolate in latent space:
 
 - **1 to 9 Animation:**  
-  ![@anim_1_to_9.gif](anim_1_to_9.gif)  
+  ![@anim_1_to_9.gif](vae_outputs/anim_1_to_9.gif)  
   Interpolates between the latent representations of the digits 1 and 9, showing smooth transitions in generated images.
 
 - **Pi Digits Animation:**  
-  ![@anim_pi_digits.gif](anim_pi_digits.gif)  
+  ![@anim_pi_digits.gif](vae_outputs/anim_pi_digits.gif)  
   Traverses the latent space following a sequence of digits from the number π, visualizing the diversity and structure learned by the VAE.
 
 For more details, see the code and comments in [`cody-vae.ipynb`](cody-vae.ipynb).
